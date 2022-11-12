@@ -1,0 +1,267 @@
+:root {
+	--color-text-first: #263238;
+	--logo-accent: #939393;
+	--logo-color: #000000;
+	--color-btn-transparent: #000000;
+	--color-title: #000000;
+	--color-text: #8f95a5;
+	--thumb-color: #f5f5f5;
+	--color-btn-dark: #263238;
+	--text-color-white: #ffffff;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: var(--color-text);
+	background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.list {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.address {
+	font-style: normal;
+}
+
+.container {
+	width: 1368px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: solid 2px orange;
+}
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+/* -------HEADER---------- */
+.nav-header {
+	display: flex;
+	align-items: center;
+	margin-top: 55px;
+}
+
+.header-logo {
+	display: inline-block;
+	font-size: 36px;
+	line-height: calc(54 / 36);
+	display: flex;
+	align-items: center;
+	margin-right: 236px;
+
+	color: var(--logo-color);
+}
+
+.logo-accent {
+	color: var(--logo-accent);
+}
+
+.nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* margin-right: 121px; */
+	gap: 50px;
+}
+
+.nav-item {
+}
+
+.nav-link {
+	padding: 20px 0;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: calc(30 / 20);
+	color: var(--color-text-first);
+}
+
+.nav-btn {
+	display: block;
+	margin-left: 121px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: calc(30 / 20);
+	letter-spacing: 0.03em;
+	width: 312px;
+	height: 70px;
+	padding: 20px 56px;
+	border: 2px solid #263238;
+	border-radius: 10px;
+	background-color: transparent;
+
+	color: var(--color-btn-transparent);
+}
+
+/* --------HERO--------- */
+
+.hero-container {
+	display: flex;
+	margin-top: 55px;
+	margin-bottom: 180px;
+}
+
+.hero-leftside {
+	display: block;
+	width: 540px;
+	margin-right: 144px;
+}
+
+.hero-title {
+	font-weight: 600;
+	font-size: 64px;
+	line-height: calc(80 / 64);
+	margin-bottom: 40px;
+
+	color: var(--color-title);
+}
+
+.hero-text {
+	display: inline-block;
+	font-style: normal;
+	font-weight: 400;
+	line-height: calc(36 / 24);
+	margin-bottom: 60px;
+
+	color: #8f95a5;
+}
+
+.hero-btn {
+	display: block;
+	width: 426px;
+	height: 100px;
+	border-radius: 10px;
+	border: none;
+	margin: 0px;
+
+	font-size: 36px;
+	line-height: calc(54 / 36);
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: #ffffff;
+
+	background: #263238;
+}
+
+/* ---------SKILLS----------- */
+
+.main-thumb {
+	display: flex;
+}
+
+.skills-leftside {
+	margin-left: 30px;
+}
+
+.skills-title {
+	margin-bottom: 60px;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: calc(72 / 48);
+	text-align: center;
+
+	color: var(--color-title);
+}
+
+.thumb-left {
+	width: 426px;
+	height: 947px;
+	padding-top: 32px;
+	padding-left: 18px;
+	padding-right: 18px;
+	border-radius: 10px;
+	background-color: var(--thumb-color);
+}
+
+.skills-name {
+	margin-top: 24px;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 45px;
+
+	color: #263238;
+}
+
+.skills-text {
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #8f95a5;
+}
+
+.skills-btn {
+	margin-top: 30px;
+	width: 230px;
+	height: 60px;
+	border: none;
+	border-radius: 10px;
+	background-color: var(--color-btn-dark);
+
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+
+	color: var(--text-color-white);
+}
+
+.container-right-top {
+	display: flex;
+	gap: 30px;
+}
+
+.thumb-right-top {
+	width: 426px;
+	height: 579px;
+	padding: 32px 18px;
+	border-radius: 10px;
+	background-color: var(--thumb-color);
+}
+
+.thumb-right-bottom {
+	display: flex;
+	margin-top: 30px;
+	width: 882px;
+	height: 338px;
+	padding: 32px 18px;
+	border-radius: 10px;
+	background-color: var(--thumb-color);
+}
